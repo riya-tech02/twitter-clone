@@ -1,5 +1,3 @@
-export declare const apiLimiter: any;
-export declare const authLimiter: any;
-export declare const tweetLimiter: any;
-export declare const messageLimiter: any;
+import { Request, Response, NextFunction } from "express";
+export declare const messageLimiter: (req: Request, res: Response, next: NextFunction) => void;
 //# sourceMappingURL=rateLimit.middleware.d.ts.map
